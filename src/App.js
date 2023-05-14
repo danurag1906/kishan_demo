@@ -38,7 +38,7 @@ function App() {
     );
   }, []);
 
-  console.log(data);
+  // console.log(data);
   console.log("before");
 
   useEffect(() => {
@@ -50,7 +50,7 @@ function App() {
     );
     // console.log("above");
     // console.log(filterdata);
-    console.log(`filteredData-${filteredData}`);
+    // console.log(`filteredData-${filteredData}`);
     setFilterdata(filteredData);
   }, [search, data]);
 
