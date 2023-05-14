@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   // console.log(data);
-  console.log("before");
+  // console.log("before");
 
   useEffect(() => {
     const filteredData = data.filter(
