@@ -1,0 +1,37 @@
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.row-items{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    gap: 1rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px black;
+}
+.row-items p{
+    margin: 0rem;
+    width: 50vw;
+    
+}
+span{
+    font-weight: bold;
+    padding-right: 1rem;
+}
+/* .span{
+    padding-right: 2rem;
+} */
+/* .line{
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+} */
+@media only screen and (max-width:500px){
+    .row-items p{
+        margin: 0rem;
+        width: 80vw;
+    } 
+}
